@@ -12,4 +12,5 @@ and testing practices.
 
 I don't think the project works perfectly, though it was graded very well, but the 
 general concepts of Minimax Search, Alpha-Beta Pruning, Depth-Cuttoff with Minimax, 
-et. al. are there. As well, organization is lacking, but that was asked of us.
+et. al. are there. As well, organization could be improved for this project, but I
+preferred it this way to ease actually handing it in.
