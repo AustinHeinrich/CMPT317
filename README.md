@@ -6,7 +6,8 @@ This assignment built a calculating machine - that is, it started with two
 key inputs: a target integer and an array of integers. The goal was to use
 the commands 'multiply', 'add', 'subtract', 'divide', and 'oo-operation (nop)'
 to calculate the target using only the array of integers using several AI
-hill-climbing algorithms.
+hill-climbing algorithms. I am quite happy with this project, and scored
+very well.
 
 a2q1 utilized Random Guessing, and took a random state each iteration. It 
 remembered the best state from each of its iterations, and after an allotted
@@ -21,7 +22,8 @@ the target), it became the new best guess.
 a2q3 was an actual Hill-climbing Search. It acted similarly to Random Search,
 except it took the *best* operator to mutate by.
 
-
+q4 did Random-Restart Hill-climbing search, and q5 used Stochastic Hill-
+climbing search.
 
 
 ### Assignement 4 - Minimax Search
