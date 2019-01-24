@@ -13,7 +13,7 @@ a2q3 was an actual Hill-climbing Search. It acted similarly to Random Search, ex
 q4 did Random-Restart Hill-climbing search, and q5 used Stochastic Hill-climbing search.
 
 ### Assignment 3 - The Constraint Satisfaction Problem (CSPs)
-For this assignment, I implemented the Constraint Satisfaction Program augmented with Forward Checking. As input, this 
+For this assignment, I implemented the Constraint Satisfaction Program augmented with Forward Checking. As input, this program takes examples_size3.txt and examples_size5.txt, both provided. These text files contain unfinished Latin Squares, which are solved by the program. It is kind of slow, entirely the fault of the depth-first search. A lot of deepcopies occur, though this is an easily solvable problem. For example, I could substitute a fair portion of the program with numPy's.
 
 ### Assignement 4 - Minimax Search
 This assignment revolved around a board game styled off the N-Queens program. The object of the game was to be the last player to put a piece (a queen) on the board, and therefore minimize the amount of queens the other player can play. The project uses a variety of Minimax algorithms, some with Alpha-Beta Pruning, some with Depth-Cutoff. There is also a large number of tests for the code present. Overall, it demonstrates a fine understanding of minimax and testing practices.
