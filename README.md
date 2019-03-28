@@ -4,7 +4,7 @@ Repository for Introduction to Artificial Intelligence
 ### Assignment 2 - Calculating Machine
 This assignment built a calculating machine - that is, it started with two key inputs: a target integer and an array of integers. The goal was to use the commands 'multiply', 'add', 'subtract', 'divide', and 'oo-operation (nop)' to calculate the target using only the array of integers using several AI hill-climbing algorithms. I am quite happy with this project, and scored very well.
 
-a2q1 utilized Random Guessing, and took a random state each iteration. It remembered the best state from each of its iterations, and after an allotted amount of time, terminated and returned its closest guess to the target. This one was the most fun, but only because of how ridiculous I think random guessing is.
+a2q1 (Assignment_2-1) utilized Random Guessing, and took a random state each iteration. It remembered the best state from each of its iterations, and after an allotted amount of time, terminated and returned its closest guess to the target. This one was the most fun, but only because of how ridiculous I think random guessing is.
 
 a2q2 did Random Search. This would take in a randomized initial array, and  then mutate one of the array values. If the mutation was better (closer to the target), it became the new best guess.
 
